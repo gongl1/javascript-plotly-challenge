@@ -1,3 +1,5 @@
+My app is published at https://gongl1.github.io/javascript-plotly-challenge/
+
 # Plot.ly Homework - Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
