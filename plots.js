@@ -29,7 +29,7 @@ function buildMetadata(sample) {
 // buildMetadata(940);
   
   
-  
+// d3.json() always need to use a web service like j3.json(url), that was why need live server or python http to open the index.html rather than open it directly 
 function buildCharts(sample) {
     d3.json("samples.json").then((datatiger) => {
         let samples = datatiger.samples;
@@ -95,7 +95,7 @@ function init() {
     let selector = d3.select("#selDataset");
 
     // Use the list of sample names to populate the select options
-    // Codes below are adding options for line 25 in html, for example <option value="941">941</option> !!!
+    // Codes below are adding options for line 25 in html, it will include all sampleNames, for example <option value="941">941</option> !!!
     d3.json("samples.json").then((datatiger) => {
         let sampleNames = datatiger.names;
         sampleNames.forEach((sample) => {
@@ -117,7 +117,7 @@ function init() {
   
   
   
-
+// make sure to use function optionChanged() in plots.js to refer to line 25 in html onchange="optionChanged(this.value). https://www.w3schools.com/jsref/event_onchange.asp
 function optionChanged(newSample) {
     // Fetch new data each time a new sample is selected
     buildCharts(newSample);

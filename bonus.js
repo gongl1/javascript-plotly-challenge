@@ -38,7 +38,7 @@ function buildGauge(wfreq) {
 
 
 // /**
-//  * BONUS Solution, below is another method
+//  * BONUS Solution, below is another method using path
 //  * */
 //  function buildGauge(wfreq) {
 //     // Enter the washing frequency between 0 and 180
