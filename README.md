@@ -1,5 +1,9 @@
 My app is published at https://gongl1.github.io/javascript-plotly-challenge/
 
+- - -
+
+© Liang Gong. Confidential and Proprietary. All Rights Reserved.
+
 # Plot.ly Homework - Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
